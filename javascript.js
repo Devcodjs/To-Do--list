@@ -71,8 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${task.text}</p>
           </div>
           <div id="icons">
-            <img src="./img/edit.png" onClick="editTask(${index})" alt="Edit" />
-            <img src="./img/delete.png" onClick="deleteTask(${index})" alt="Delete" />
+            <img src="./edit.png" onClick="editTask(${index})" alt="Edit" />
+            <img src="./delete.png" onClick="deleteTask(${index})" alt="Delete" />
           </div>
         </div>
       `;
